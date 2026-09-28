@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net8.0;net10.0</TargetFrameworks>
+		<PackageProjectUrl>https://github.com/aaasoft/CloudMAS</PackageProjectUrl>
+		<PackageIcon>Logo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/aaasoft/CloudMAS</RepositoryUrl>
+		<Description>Send sms with CMCC CloudMAS.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\resource\Logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	
+</Project>
